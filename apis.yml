@@ -1,0 +1,78 @@
+aid: speedinvest
+name: Speedinvest
+description: >-
+  Speedinvest is one of Europe's most active early-stage venture capital firms, founded in 2011 by
+  Oliver Holle and headquartered in Vienna, Austria, with additional offices in Berlin, London, Munich,
+  and Paris across EMEA. The firm invests from pre-seed and seed through selective growth stages, writing
+  typical early-stage checks of roughly EUR 500K to EUR 3M (and up to around $10M in later rounds), and
+  manages more than EUR 1.2 billion in assets under management. Speedinvest runs a specialist model built
+  around dedicated sector teams rather than generalists: AI & Infra, Climate Tech & Industrial Tech,
+  Deep Tech, Fintech & DeFi, Health & Bio, Marketplaces & Consumer, Growth, and Middle East, Africa &
+  Beyond. Its "many move more" thesis pairs early capital with hands-on operational support, talent,
+  customer introductions, and a global follow-on network. The firm backs technical founders across Europe
+  and beyond, with a portfolio of 400+ companies including Bitpanda, Tide, GoStudent, Wayflyer, Curve,
+  Adverity, Bitmovin, CoachHub, and Prewave.
+image: https://www.speedinvest.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Pre-Seed
+  - Seed
+  - Series A
+  - Growth Equity
+  - Fintech
+  - Deep Tech
+  - Climate Tech
+  - Health & Bio
+  - Marketplaces & Consumer
+  - Artificial Intelligence
+  - Infrastructure
+  - Europe
+  - Vienna
+apis: []
+common:
+  - type: Website
+    url: https://www.speedinvest.com/
+  - type: Portfolio
+    url: https://www.speedinvest.com/portfolio
+  - type: Portfolio
+    url: portfolio/speedinvest-portfolio.yml
+  - type: InvestmentThesis
+    url: https://www.speedinvest.com/how-we-work
+  - type: Blog
+    url: https://www.speedinvest.com/blog
+  - type: Jobs
+    url: https://careers.speedinvest.com/jobs
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/speedinvest
+  - type: LinkedIn
+    url: https://at.linkedin.com/company/speedinvest
+  - type: Twitter
+    url: https://twitter.com/speedinvest
+  - type: Features
+    data:
+      - "Stage: Pre-seed, Seed, selective Growth"
+      - "Typical check: EUR 500K-EUR 3M early stage (up to ~$10M later)"
+      - "Sectors: AI & Infra, Climate Tech & Industrial Tech, Deep Tech, Fintech & DeFi, Health & Bio, Marketplaces & Consumer"
+      - "Geography: Europe / EMEA, plus Middle East, Africa & Beyond"
+      - "AUM: EUR 1.2B+ (self-reported)"
+      - "Portfolio: 400+ companies"
+      - "Founded: 2011"
+      - "HQ: Vienna, Austria (offices in Berlin, London, Munich, Paris)"
+    sources:
+      - https://www.speedinvest.com/
+      - https://www.speedinvest.com/how-we-work
+      - https://www.crunchbase.com/organization/speedinvest
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Speedinvest
+    url: https://www.speedinvest.com/
