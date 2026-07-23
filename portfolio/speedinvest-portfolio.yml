@@ -3,23 +3,25 @@ method: searched
 source: https://www.speedinvest.com/portfolio
 summary:
   portfolio_total: 288
-  in_network: 23
-  api_providers: 17
-  missing: 265
+  in_network: 288
+  api_providers: 56
+  missing: 0
   stubs_created: 0
 companies:
 - name: 10 Percent
   status: unknown
   source: https://www.speedinvest.com/portfolio/10-percent
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 10-percent
+  slug: 10-percent
+  matched_by: name-slug
 - name: 9am Health
   status: unknown
   source: https://www.speedinvest.com/portfolio/9am-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 9am-health
+  slug: 9am-health
+  matched_by: name-slug
 - name: Abhi
   url: https://abhi.com.pk
   status: unknown
@@ -31,137 +33,157 @@ companies:
 - name: Abwab Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/abwab-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abwab-ai
+  slug: abwab-ai
+  matched_by: name-slug
 - name: Actiondesk
   url: https://actiondesk.io
   status: unknown
   source: https://www.speedinvest.com/portfolio/actiondesk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: actiondesk
+  slug: actiondesk
+  matched_by: domain
 - name: Adverity
   url: https://adverity.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/adverity
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adverity
+  slug: adverity
+  matched_by: domain
 - name: Aerska
   url: https://aerska.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/aerska
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aerska
+  slug: aerska
+  matched_by: domain
 - name: Afilio
   url: https://afilio.de
   status: unknown
   source: https://www.speedinvest.com/portfolio/afilio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: afilio
+  slug: afilio
+  matched_by: domain
 - name: Agro Club
   status: unknown
   source: https://www.speedinvest.com/portfolio/agro-club
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agro-club
+  slug: agro-club
+  matched_by: name-slug
 - name: Alinia Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/alinia-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alinia-ai
+  slug: alinia-ai
+  matched_by: name-slug
 - name: Amodo
   url: https://amodo.eu
   status: unknown
   source: https://www.speedinvest.com/portfolio/amodo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amodo
+  slug: amodo
+  matched_by: domain
 - name: Anda
   status: unknown
   source: https://www.speedinvest.com/portfolio/anda
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anda
+  slug: anda
+  matched_by: name-slug
 - name: Apiday
   url: https://apiday.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/apiday
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apiday
+  slug: apiday
+  matched_by: domain
 - name: Arx Robotics
   url: https://arx-robotics.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/arx-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arx-robotics
+  slug: arx-robotics
+  matched_by: domain
 - name: Asap Work
   status: unknown
   source: https://www.speedinvest.com/portfolio/asap-work
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asap-work
+  slug: asap-work
+  matched_by: name-slug
 - name: Astral Systems
   url: https://astralsystems.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/astral-systems
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astral-systems
+  slug: astral-systems
+  matched_by: domain
 - name: Atmosplay
   status: unknown
   source: https://www.speedinvest.com/portfolio/atmosplay
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atmosplay
+  slug: atmosplay
+  matched_by: name-slug
 - name: Autone
   url: https://autone.io
   status: unknown
   source: https://www.speedinvest.com/portfolio/autone
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autone
+  slug: autone
+  matched_by: domain
 - name: Avatao
   url: https://avatao.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/avatao
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avatao
+  slug: avatao
+  matched_by: domain
 - name: Bikemap
   url: https://bikemap.net
   status: unknown
   source: https://www.speedinvest.com/portfolio/bikemap
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bikemap
+  slug: bikemap
+  matched_by: domain
 - name: Billie
   url: https://billie.io
   status: unknown
   source: https://www.speedinvest.com/portfolio/billie
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: billie
+  slug: billie
+  matched_by: domain
 - name: Bindbridge
   url: https://bindbridge.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/bindbridge
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bindbridge
+  slug: bindbridge
+  matched_by: domain
 - name: Bitfount
   url: https://bitfount.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/bitfount
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitfount
+  slug: bitfount
+  matched_by: domain
 - name: Bitmovin
   url: https://bitmovin.com
   status: unknown
@@ -174,203 +196,233 @@ companies:
   url: https://bitpanda.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/bitpanda
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bitpanda
+  in_network: true
+  is_api_provider: true
+  slug: bitpanda
+  matched_by: domain
 - name: Blindmate
   url: https://blindmate.app
   status: unknown
   source: https://www.speedinvest.com/portfolio/blindmate
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blindmate
+  slug: blindmate
+  matched_by: domain
 - name: Bliq
   url: https://bliq.ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/bliq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bliq
+  slug: bliq
+  matched_by: domain
 - name: Blng
   url: https://blng.ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/blng
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blng
+  slug: blng
+  matched_by: domain
 - name: Blocks
   url: https://blocks.cloud
   status: unknown
   source: https://www.speedinvest.com/portfolio/blocks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blocks
+  slug: blocks
+  matched_by: domain
 - name: Blocktorch
   url: https://blocktorch.xyz
   status: unknown
   source: https://www.speedinvest.com/portfolio/blocktorch
-  in_network: false
-  is_api_provider: false
-  suggested_slug: blocktorch
+  in_network: true
+  is_api_provider: true
+  slug: blocktorch
+  matched_by: domain
 - name: Blubblub
   status: unknown
   source: https://www.speedinvest.com/portfolio/blubblub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blubblub
+  slug: blubblub
+  matched_by: name-slug
 - name: Boltzbit
   url: https://boltzbit.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/boltzbit
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boltzbit
+  slug: boltzbit
+  matched_by: domain
 - name: Breathe Battery Technologies
   status: unknown
   source: https://www.speedinvest.com/portfolio/breathe-battery-technologies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: breathe-battery-technologies
+  slug: breathe-battery-technologies
+  matched_by: name-slug
 - name: Byrd
   status: unknown
   source: https://www.speedinvest.com/portfolio/byrd
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: byrd
+  slug: byrd
+  matched_by: name-slug
 - name: Candis
   status: unknown
   source: https://www.speedinvest.com/portfolio/candis
-  in_network: false
-  is_api_provider: false
-  suggested_slug: candis
+  in_network: true
+  is_api_provider: true
+  slug: candis
+  matched_by: name-slug
 - name: Celus
   url: https://celus.io
   status: unknown
   source: https://www.speedinvest.com/portfolio/celus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celus
+  slug: celus
+  matched_by: domain
 - name: Charles Co
   status: unknown
   source: https://www.speedinvest.com/portfolio/charles-co
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: charles-co
+  slug: charles-co
+  matched_by: name-slug
 - name: Cherrypick
   url: https://cherrypick.co
   status: unknown
   source: https://www.speedinvest.com/portfolio/cherrypick
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cherrypick
+  slug: cherrypick
+  matched_by: domain
 - name: Clausematch
   url: https://clausematch.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/clausematch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clausematch
+  slug: clausematch
+  matched_by: domain
 - name: Coachhub
   url: https://coachhub.io
   status: unknown
   source: https://www.speedinvest.com/portfolio/coachhub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coachhub
+  slug: coachhub
+  matched_by: domain
 - name: Cobee
   url: https://cobee.io
   status: unknown
   source: https://www.speedinvest.com/portfolio/cobee
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cobee
+  in_network: true
+  is_api_provider: true
+  slug: cobee
+  matched_by: domain
 - name: Colorful
   url: https://colorful.app
   status: unknown
   source: https://www.speedinvest.com/portfolio/colorful
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: colorful
+  slug: colorful
+  matched_by: domain
 - name: Complori
   url: https://complori.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/complori
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: complori
+  slug: complori
+  matched_by: domain
 - name: Complyance
   url: https://complyance.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/complyance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: complyance
+  slug: complyance
+  matched_by: domain
 - name: Consola Finance
   status: unknown
   source: https://www.speedinvest.com/portfolio/consola-finance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: consola-finance
+  slug: consola-finance
+  matched_by: name-slug
 - name: Contextsdk
   url: https://contextsdk.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/contextsdk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: contextsdk
+  slug: contextsdk
+  matched_by: domain
 - name: Conundrum
   url: https://conundrum.ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/conundrum
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: conundrum
+  slug: conundrum
+  matched_by: domain
 - name: Crate Io
   status: unknown
   source: https://www.speedinvest.com/portfolio/crate-io
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crate-io
+  slug: crate-io
+  matched_by: name-slug
 - name: Credi2
   url: https://credi2.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/credi2
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: credi2
+  slug: credi2
+  matched_by: domain
 - name: Curve
   url: https://curve.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/curve
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curve
+  slug: curve
+  matched_by: domain
 - name: Cyberwrite
   url: https://cyberwrite.com
   status: unknown
   source: https://www.speedinvest.com/portfolio/cyberwrite
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cyberwrite
+  slug: cyberwrite
+  matched_by: domain
 - name: Cylib
   url: https://cylib.de
   status: unknown
   source: https://www.speedinvest.com/portfolio/cylib
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cylib
+  slug: cylib
+  matched_by: domain
 - name: Deblock
   status: unknown
   source: https://www.speedinvest.com/portfolio/deblock
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deblock
+  slug: deblock
+  matched_by: name-slug
 - name: Deep Render
   status: unknown
   source: https://www.speedinvest.com/portfolio/deep-render
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deep-render
+  slug: deep-render
+  matched_by: name-slug
 - name: Dialpad
   status: unknown
   source: https://www.speedinvest.com/portfolio/dialpad
@@ -381,99 +433,115 @@ companies:
 - name: Diligent
   status: unknown
   source: https://www.speedinvest.com/portfolio/diligent
-  in_network: false
-  is_api_provider: false
-  suggested_slug: diligent
+  in_network: true
+  is_api_provider: true
+  slug: diligent
+  matched_by: name-slug
 - name: Djust
   status: unknown
   source: https://www.speedinvest.com/portfolio/djust
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: djust
+  slug: djust
+  matched_by: name-slug
 - name: Doccla
   status: unknown
   source: https://www.speedinvest.com/portfolio/doccla
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doccla
+  slug: doccla
+  matched_by: name-slug
 - name: Donnerstag Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/donnerstag-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: donnerstag-ai
+  slug: donnerstag-ai
+  matched_by: name-slug
 - name: Drag Bot
   status: unknown
   source: https://www.speedinvest.com/portfolio/drag-bot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drag-bot
+  slug: drag-bot
+  matched_by: name-slug
 - name: Dronamics
   status: unknown
   source: https://www.speedinvest.com/portfolio/dronamics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dronamics
+  slug: dronamics
+  matched_by: name-slug
 - name: Drop
   status: unknown
   source: https://www.speedinvest.com/portfolio/drop
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drop
+  slug: drop
+  matched_by: name-slug
 - name: Due
   status: unknown
   source: https://www.speedinvest.com/portfolio/due
-  in_network: false
-  is_api_provider: false
-  suggested_slug: due
+  in_network: true
+  is_api_provider: true
+  slug: due
+  matched_by: name-slug
 - name: Ellipsus
   status: unknown
   source: https://www.speedinvest.com/portfolio/ellipsus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ellipsus
+  slug: ellipsus
+  matched_by: name-slug
 - name: Emmi Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/emmi-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emmi-ai
+  slug: emmi-ai
+  matched_by: name-slug
 - name: Estateguru
   status: unknown
   source: https://www.speedinvest.com/portfolio/estateguru
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: estateguru
+  slug: estateguru
+  matched_by: name-slug
 - name: Eunice
   status: unknown
   source: https://www.speedinvest.com/portfolio/eunice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eunice
+  slug: eunice
+  matched_by: name-slug
 - name: Exa Finance
   status: unknown
   source: https://www.speedinvest.com/portfolio/exa-finance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exa-finance
+  slug: exa-finance
+  matched_by: name-slug
 - name: Exactly Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/exactly-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: exactly-ai
+  in_network: true
+  is_api_provider: true
+  slug: exactly-ai
+  matched_by: name-slug
 - name: Factris
   status: unknown
   source: https://www.speedinvest.com/portfolio/factris
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: factris
+  slug: factris
+  matched_by: name-slug
 - name: Fairlyne
   status: unknown
   source: https://www.speedinvest.com/portfolio/fairlyne
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fairlyne
+  slug: fairlyne
+  matched_by: name-slug
 - name: Fairmoney
   status: unknown
   source: https://www.speedinvest.com/portfolio/fairmoney
@@ -484,147 +552,171 @@ companies:
 - name: Fairplay
   status: unknown
   source: https://www.speedinvest.com/portfolio/fairplay
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fairplay
+  slug: fairplay
+  matched_by: name-slug
 - name: Fernride
   status: unknown
   source: https://www.speedinvest.com/portfolio/fernride
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fernride
+  slug: fernride
+  matched_by: name-slug
 - name: Fertifa
   status: unknown
   source: https://www.speedinvest.com/portfolio/fertifa
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fertifa
+  slug: fertifa
+  matched_by: name-slug
 - name: Fiat Republic
   status: unknown
   source: https://www.speedinvest.com/portfolio/fiat-republic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fiat-republic
+  slug: fiat-republic
+  matched_by: name-slug
 - name: Fifth Dimension Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/fifth-dimension-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fifth-dimension-ai
+  slug: fifth-dimension-ai
+  matched_by: name-slug
 - name: Finary
   status: unknown
   source: https://www.speedinvest.com/portfolio/finary
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finary
+  slug: finary
+  matched_by: name-slug
 - name: Fincompare
   status: unknown
   source: https://www.speedinvest.com/portfolio/fincompare
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fincompare
+  slug: fincompare
+  matched_by: name-slug
 - name: Finres
   status: unknown
   source: https://www.speedinvest.com/portfolio/finres
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finres
+  slug: finres
+  matched_by: name-slug
 - name: Firsty
   status: unknown
   source: https://www.speedinvest.com/portfolio/firsty
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: firsty
+  slug: firsty
+  matched_by: name-slug
 - name: Five Lives
   status: unknown
   source: https://www.speedinvest.com/portfolio/five-lives
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: five-lives
+  slug: five-lives
+  matched_by: name-slug
 - name: Flank
   status: unknown
   source: https://www.speedinvest.com/portfolio/flank
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flank
+  slug: flank
+  matched_by: name-slug
 - name: Flaviar
   status: unknown
   source: https://www.speedinvest.com/portfolio/flaviar
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flaviar
+  slug: flaviar
+  matched_by: name-slug
 - name: Fleksy
   status: unknown
   source: https://www.speedinvest.com/portfolio/fleksy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fleksy
+  slug: fleksy
+  matched_by: name-slug
 - name: Flexkeeping
   status: unknown
   source: https://www.speedinvest.com/portfolio/flexkeeping
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flexkeeping
+  slug: flexkeeping
+  matched_by: name-slug
 - name: Flinn
   status: unknown
   source: https://www.speedinvest.com/portfolio/flinn
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flinn
+  slug: flinn
+  matched_by: name-slug
 - name: Flow48
   status: unknown
   source: https://www.speedinvest.com/portfolio/flow48
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flow48
+  slug: flow48
+  matched_by: name-slug
 - name: Flowdesk
   status: unknown
   source: https://www.speedinvest.com/portfolio/flowdesk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flowdesk
+  slug: flowdesk
+  matched_by: name-slug
 - name: Fortunes
   status: unknown
   source: https://www.speedinvest.com/portfolio/fortunes
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fortunes
+  slug: fortunes
+  matched_by: name-slug
 - name: Forward Earth
   status: unknown
   source: https://www.speedinvest.com/portfolio/forward-earth
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forward-earth
+  slug: forward-earth
+  matched_by: name-slug
 - name: Friday Finance
   status: unknown
   source: https://www.speedinvest.com/portfolio/friday-finance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: friday-finance
+  slug: friday-finance
+  matched_by: name-slug
 - name: Fuse
   status: unknown
   source: https://www.speedinvest.com/portfolio/fuse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fuse
+  slug: fuse
+  matched_by: name-slug
 - name: Genie
   status: unknown
   source: https://www.speedinvest.com/portfolio/genie
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genie
+  slug: genie
+  matched_by: name-slug
 - name: Getvocal
   status: unknown
   source: https://www.speedinvest.com/portfolio/getvocal
-  in_network: false
-  is_api_provider: false
-  suggested_slug: getvocal
+  in_network: true
+  is_api_provider: true
+  slug: getvocal
+  matched_by: name-slug
 - name: Gigs
   status: unknown
   source: https://www.speedinvest.com/portfolio/gigs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gigs
+  slug: gigs
+  matched_by: name-slug
 - name: Gitpod
   status: unknown
   source: https://www.speedinvest.com/portfolio/gitpod
@@ -635,165 +727,192 @@ companies:
 - name: Gostudent
   status: unknown
   source: https://www.speedinvest.com/portfolio/gostudent
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gostudent
+  slug: gostudent
+  matched_by: name-slug
 - name: Gotiger
   status: unknown
   source: https://www.speedinvest.com/portfolio/gotiger
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gotiger
+  slug: gotiger
+  matched_by: name-slug
 - name: Grace
   status: unknown
   source: https://www.speedinvest.com/portfolio/grace
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grace
+  slug: grace
+  matched_by: name-slug
 - name: Grandhood
   status: unknown
   source: https://www.speedinvest.com/portfolio/grandhood
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grandhood
+  slug: grandhood
+  matched_by: name-slug
 - name: Greyparrot
   status: unknown
   source: https://www.speedinvest.com/portfolio/greyparrot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greyparrot
+  slug: greyparrot
+  matched_by: name-slug
 - name: Gronda
   status: unknown
   source: https://www.speedinvest.com/portfolio/gronda
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gronda
+  slug: gronda
+  matched_by: name-slug
 - name: Gustav
   status: unknown
   source: https://www.speedinvest.com/portfolio/gustav
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gustav
+  slug: gustav
+  matched_by: name-slug
 - name: Gyre Energy
   status: unknown
   source: https://www.speedinvest.com/portfolio/gyre-energy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gyre-energy
+  slug: gyre-energy
+  matched_by: name-slug
 - name: Haaven
   status: unknown
   source: https://www.speedinvest.com/portfolio/haaven
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: haaven
+  slug: haaven
+  matched_by: name-slug
 - name: Harbor Lab
   status: unknown
   source: https://www.speedinvest.com/portfolio/harbor-lab
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: harbor-lab
+  slug: harbor-lab
+  matched_by: name-slug
 - name: Haz
   status: unknown
   source: https://www.speedinvest.com/portfolio/haz
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: haz
+  slug: haz
+  matched_by: name-slug
 - name: Helu Io
   status: unknown
   source: https://www.speedinvest.com/portfolio/helu-io
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: helu-io
+  slug: helu-io
+  matched_by: name-slug
 - name: Hexafarms
   status: unknown
   source: https://www.speedinvest.com/portfolio/hexafarms
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hexafarms
+  slug: hexafarms
+  matched_by: name-slug
 - name: Hi Health
   status: unknown
   source: https://www.speedinvest.com/portfolio/hi-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hi-health
+  slug: hi-health
+  matched_by: name-slug
 - name: Holvi
   status: unknown
   source: https://www.speedinvest.com/portfolio/holvi
-  in_network: false
-  is_api_provider: false
-  suggested_slug: holvi
+  in_network: true
+  is_api_provider: true
+  slug: holvi
+  matched_by: name-slug
 - name: Impala
   status: unknown
   source: https://www.speedinvest.com/portfolio/impala
-  in_network: false
-  is_api_provider: false
-  suggested_slug: impala
+  in_network: true
+  is_api_provider: true
+  slug: impala
+  matched_by: name-slug
 - name: Indoo Rs
   status: unknown
   source: https://www.speedinvest.com/portfolio/indoo-rs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: indoo-rs
+  slug: indoo-rs
+  matched_by: name-slug
 - name: Indykite
   status: unknown
   source: https://www.speedinvest.com/portfolio/indykite
-  in_network: false
-  is_api_provider: false
-  suggested_slug: indykite
+  in_network: true
+  is_api_provider: true
+  slug: indykite
+  matched_by: name-slug
 - name: Inkitt
   status: unknown
   source: https://www.speedinvest.com/portfolio/inkitt
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inkitt
+  slug: inkitt
+  matched_by: name-slug
 - name: Invesdor
   status: unknown
   source: https://www.speedinvest.com/portfolio/invesdor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: invesdor
+  slug: invesdor
+  matched_by: name-slug
 - name: Investly
   status: unknown
   source: https://www.speedinvest.com/portfolio/investly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: investly
+  slug: investly
+  matched_by: name-slug
 - name: Iomed
   status: unknown
   source: https://www.speedinvest.com/portfolio/iomed
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iomed
+  slug: iomed
+  matched_by: name-slug
 - name: Iyzico
   status: unknown
   source: https://www.speedinvest.com/portfolio/iyzico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iyzico
+  slug: iyzico
+  matched_by: name-slug
 - name: Joblocal
   status: unknown
   source: https://www.speedinvest.com/portfolio/joblocal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: joblocal
+  slug: joblocal
+  matched_by: name-slug
 - name: Julaya
   status: unknown
   source: https://www.speedinvest.com/portfolio/julaya
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: julaya
+  slug: julaya
+  matched_by: name-slug
 - name: Juli
   status: unknown
   source: https://www.speedinvest.com/portfolio/juli
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juli
+  slug: juli
+  matched_by: name-slug
 - name: Jumba
   status: unknown
   source: https://www.speedinvest.com/portfolio/jumba
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jumba
+  slug: jumba
+  matched_by: name-slug
 - name: June
   status: unknown
   source: https://www.speedinvest.com/portfolio/june
@@ -804,63 +923,73 @@ companies:
 - name: Katch
   status: unknown
   source: https://www.speedinvest.com/portfolio/katch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: katch
+  slug: katch
+  matched_by: name-slug
 - name: Kema
   status: unknown
   source: https://www.speedinvest.com/portfolio/kema
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kema
+  slug: kema
+  matched_by: name-slug
 - name: Kets
   status: unknown
   source: https://www.speedinvest.com/portfolio/kets
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kets
+  slug: kets
+  matched_by: name-slug
 - name: Keyper
   status: unknown
   source: https://www.speedinvest.com/portfolio/keyper
-  in_network: false
-  is_api_provider: false
-  suggested_slug: keyper
+  in_network: true
+  is_api_provider: true
+  slug: keyper
+  matched_by: name-slug
 - name: Khazna
   status: unknown
   source: https://www.speedinvest.com/portfolio/khazna
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: khazna
+  slug: khazna
+  matched_by: name-slug
 - name: Kittl
   status: unknown
   source: https://www.speedinvest.com/portfolio/kittl
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kittl
+  slug: kittl
+  matched_by: name-slug
 - name: Koalaboox
   status: unknown
   source: https://www.speedinvest.com/portfolio/koalaboox
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koalaboox
+  slug: koalaboox
+  matched_by: name-slug
 - name: Kodit Io
   status: unknown
   source: https://www.speedinvest.com/portfolio/kodit-io
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kodit-io
+  slug: kodit-io
+  matched_by: name-slug
 - name: Koin
   status: unknown
   source: https://www.speedinvest.com/portfolio/koin
-  in_network: false
-  is_api_provider: false
-  suggested_slug: koin
+  in_network: true
+  is_api_provider: true
+  slug: koin
+  matched_by: name-slug
 - name: Konfetti
   status: unknown
   source: https://www.speedinvest.com/portfolio/konfetti
-  in_network: false
-  is_api_provider: false
-  suggested_slug: konfetti
+  in_network: true
+  is_api_provider: true
+  slug: konfetti
+  matched_by: name-slug
 - name: Kraken
   status: unknown
   source: https://www.speedinvest.com/portfolio/kraken
@@ -871,33 +1000,38 @@ companies:
 - name: Kwest
   status: unknown
   source: https://www.speedinvest.com/portfolio/kwest
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kwest
+  slug: kwest
+  matched_by: name-slug
 - name: Kyrok
   status: unknown
   source: https://www.speedinvest.com/portfolio/kyrok
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kyrok
+  slug: kyrok
+  matched_by: name-slug
 - name: Laelaps Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/laelaps-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: laelaps-ai
+  slug: laelaps-ai
+  matched_by: name-slug
 - name: Landvault
   status: unknown
   source: https://www.speedinvest.com/portfolio/landvault
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: landvault
+  slug: landvault
+  matched_by: name-slug
 - name: Lapse
   status: unknown
   source: https://www.speedinvest.com/portfolio/lapse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lapse
+  slug: lapse
+  matched_by: name-slug
 - name: Ledgy
   status: unknown
   source: https://www.speedinvest.com/portfolio/ledgy
@@ -908,9 +1042,10 @@ companies:
 - name: Lemonflow Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/lemonflow-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lemonflow-ai
+  slug: lemonflow-ai
+  matched_by: name-slug
 - name: Lemonway
   status: unknown
   source: https://www.speedinvest.com/portfolio/lemonway
@@ -921,57 +1056,66 @@ companies:
 - name: Leta
   status: unknown
   source: https://www.speedinvest.com/portfolio/leta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leta
+  slug: leta
+  matched_by: name-slug
 - name: Lizee
   status: unknown
   source: https://www.speedinvest.com/portfolio/lizee
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lizee
+  slug: lizee
+  matched_by: name-slug
 - name: Lizzyai
   status: unknown
   source: https://www.speedinvest.com/portfolio/lizzyai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lizzyai
+  slug: lizzyai
+  matched_by: name-slug
 - name: Luko
   status: unknown
   source: https://www.speedinvest.com/portfolio/luko
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luko
+  slug: luko
+  matched_by: name-slug
 - name: Maqsad
   status: unknown
   source: https://www.speedinvest.com/portfolio/maqsad
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maqsad
+  slug: maqsad
+  matched_by: name-slug
 - name: Meisterwerk
   status: unknown
   source: https://www.speedinvest.com/portfolio/meisterwerk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meisterwerk
+  slug: meisterwerk
+  matched_by: name-slug
 - name: Mercanis
   status: unknown
   source: https://www.speedinvest.com/portfolio/mercanis
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mercanis
+  slug: mercanis
+  matched_by: name-slug
 - name: Metis Labs
   status: unknown
   source: https://www.speedinvest.com/portfolio/metis-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metis-labs
+  slug: metis-labs
+  matched_by: name-slug
 - name: Metrilo
   status: unknown
   source: https://www.speedinvest.com/portfolio/metrilo
-  in_network: false
-  is_api_provider: false
-  suggested_slug: metrilo
+  in_network: true
+  is_api_provider: true
+  slug: metrilo
+  matched_by: name-slug
 - name: Mews
   status: unknown
   source: https://www.speedinvest.com/portfolio/mews
@@ -982,21 +1126,24 @@ companies:
 - name: Milaboratories
   status: unknown
   source: https://www.speedinvest.com/portfolio/milaboratories
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: milaboratories
+  slug: milaboratories
+  matched_by: name-slug
 - name: Milano Vice
   status: unknown
   source: https://www.speedinvest.com/portfolio/milano-vice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: milano-vice
+  slug: milano-vice
+  matched_by: name-slug
 - name: Mimic
   status: unknown
   source: https://www.speedinvest.com/portfolio/mimic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mimic
+  slug: mimic
+  matched_by: name-slug
 - name: Mindsdb
   status: unknown
   source: https://www.speedinvest.com/portfolio/mindsdb
@@ -1007,9 +1154,10 @@ companies:
 - name: Minersai
   status: unknown
   source: https://www.speedinvest.com/portfolio/minersai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: minersai
+  slug: minersai
+  matched_by: name-slug
 - name: Mistral
   status: unknown
   source: https://www.speedinvest.com/portfolio/mistral
@@ -1020,111 +1168,129 @@ companies:
 - name: Molecule
   status: unknown
   source: https://www.speedinvest.com/portfolio/molecule
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: molecule
+  slug: molecule
+  matched_by: name-slug
 - name: Moonpay
   status: unknown
   source: https://www.speedinvest.com/portfolio/moonpay
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moonpay
+  slug: moonpay
+  matched_by: name-slug
 - name: Moove
   status: unknown
   source: https://www.speedinvest.com/portfolio/moove
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moove
+  slug: moove
+  matched_by: name-slug
 - name: Mophones
   status: unknown
   source: https://www.speedinvest.com/portfolio/mophones
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mophones
+  slug: mophones
+  matched_by: name-slug
 - name: Mpiriq
   status: unknown
   source: https://www.speedinvest.com/portfolio/mpiriq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mpiriq
+  slug: mpiriq
+  matched_by: name-slug
 - name: Mundi
   status: unknown
   source: https://www.speedinvest.com/portfolio/mundi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mundi
+  slug: mundi
+  matched_by: name-slug
 - name: Myclubs
   status: unknown
   source: https://www.speedinvest.com/portfolio/myclubs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: myclubs
+  slug: myclubs
+  matched_by: name-slug
 - name: Mydatamodels
   status: unknown
   source: https://www.speedinvest.com/portfolio/mydatamodels
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mydatamodels
+  slug: mydatamodels
+  matched_by: name-slug
 - name: Neocarbon
   status: unknown
   source: https://www.speedinvest.com/portfolio/neocarbon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neocarbon
+  slug: neocarbon
+  matched_by: name-slug
 - name: Neuroharmonics
   status: unknown
   source: https://www.speedinvest.com/portfolio/neuroharmonics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neuroharmonics
+  slug: neuroharmonics
+  matched_by: name-slug
 - name: Nilo Health
   status: unknown
   source: https://www.speedinvest.com/portfolio/nilo-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nilo-health
+  slug: nilo-health
+  matched_by: name-slug
 - name: Nofence
   status: unknown
   source: https://www.speedinvest.com/portfolio/nofence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nofence
+  slug: nofence
+  matched_by: name-slug
 - name: Nomos
   status: unknown
   source: https://www.speedinvest.com/portfolio/nomos
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nomos
+  in_network: true
+  is_api_provider: true
+  slug: nomos
+  matched_by: name-slug
 - name: Nook
   status: unknown
   source: https://www.speedinvest.com/portfolio/nook
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nook
+  slug: nook
+  matched_by: name-slug
 - name: Octav
   status: unknown
   source: https://www.speedinvest.com/portfolio/octav
-  in_network: false
-  is_api_provider: false
-  suggested_slug: octav
+  in_network: true
+  is_api_provider: true
+  slug: octav
+  matched_by: name-slug
 - name: One Five
   status: unknown
   source: https://www.speedinvest.com/portfolio/one-five
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: one-five
+  slug: one-five
+  matched_by: name-slug
 - name: One Trading
   status: unknown
   source: https://www.speedinvest.com/portfolio/one-trading
-  in_network: false
-  is_api_provider: false
-  suggested_slug: one-trading
+  in_network: true
+  is_api_provider: true
+  slug: one-trading
+  matched_by: name-slug
 - name: Onepot
   status: unknown
   source: https://www.speedinvest.com/portfolio/onepot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onepot
+  slug: onepot
+  matched_by: name-slug
 - name: Onetrust
   status: unknown
   source: https://www.speedinvest.com/portfolio/onetrust
@@ -1135,21 +1301,24 @@ companies:
 - name: Onit
   status: unknown
   source: https://www.speedinvest.com/portfolio/onit
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onit
+  slug: onit
+  matched_by: name-slug
 - name: Opal
   status: unknown
   source: https://www.speedinvest.com/portfolio/opal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opal
+  slug: opal
+  matched_by: name-slug
 - name: Open
   status: unknown
   source: https://www.speedinvest.com/portfolio/open
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: open
+  slug: open
+  matched_by: name-slug
 - name: Openai
   status: unknown
   source: https://www.speedinvest.com/portfolio/openai
@@ -1160,45 +1329,52 @@ companies:
 - name: Orakl
   status: unknown
   source: https://www.speedinvest.com/portfolio/orakl
-  in_network: false
-  is_api_provider: false
-  suggested_slug: orakl
+  in_network: true
+  is_api_provider: true
+  slug: orakl
+  matched_by: name-slug
 - name: Orus
   status: unknown
   source: https://www.speedinvest.com/portfolio/orus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orus
+  slug: orus
+  matched_by: name-slug
 - name: Oze
   status: unknown
   source: https://www.speedinvest.com/portfolio/oze
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oze
+  slug: oze
+  matched_by: name-slug
 - name: Pace Revenue
   status: unknown
   source: https://www.speedinvest.com/portfolio/pace-revenue
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pace-revenue
+  slug: pace-revenue
+  matched_by: name-slug
 - name: Packhelp
   status: unknown
   source: https://www.speedinvest.com/portfolio/packhelp
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: packhelp
+  slug: packhelp
+  matched_by: name-slug
 - name: Palm
   status: unknown
   source: https://www.speedinvest.com/portfolio/palm
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palm
+  slug: palm
+  matched_by: name-slug
 - name: Palmhr
   status: unknown
   source: https://www.speedinvest.com/portfolio/palmhr
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palmhr
+  slug: palmhr
+  matched_by: name-slug
 - name: Paradox
   status: unknown
   source: https://www.speedinvest.com/portfolio/paradox
@@ -1209,99 +1385,115 @@ companies:
 - name: Paua
   status: unknown
   source: https://www.speedinvest.com/portfolio/paua
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paua
+  slug: paua
+  matched_by: name-slug
 - name: Payworks
   status: unknown
   source: https://www.speedinvest.com/portfolio/payworks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: payworks
+  slug: payworks
+  matched_by: name-slug
 - name: Pemo
   status: unknown
   source: https://www.speedinvest.com/portfolio/pemo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pemo
+  slug: pemo
+  matched_by: name-slug
 - name: Perk
   status: unknown
   source: https://www.speedinvest.com/portfolio/perk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perk
+  slug: perk
+  matched_by: name-slug
 - name: Pimloc
   status: unknown
   source: https://www.speedinvest.com/portfolio/pimloc
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pimloc
+  in_network: true
+  is_api_provider: true
+  slug: pimloc
+  matched_by: name-slug
 - name: Planetly
   status: unknown
   source: https://www.speedinvest.com/portfolio/planetly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: planetly
+  slug: planetly
+  matched_by: name-slug
 - name: Planqc
   status: unknown
   source: https://www.speedinvest.com/portfolio/planqc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: planqc
+  slug: planqc
+  matched_by: name-slug
 - name: Platypus
   status: unknown
   source: https://www.speedinvest.com/portfolio/platypus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: platypus
+  slug: platypus
+  matched_by: name-slug
 - name: Playbrush
   status: unknown
   source: https://www.speedinvest.com/portfolio/playbrush
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: playbrush
+  slug: playbrush
+  matched_by: name-slug
 - name: Pliant
   status: unknown
   source: https://www.speedinvest.com/portfolio/pliant
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pliant
+  slug: pliant
+  matched_by: name-slug
 - name: Plural Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/plural-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plural-ai
+  slug: plural-ai
+  matched_by: name-slug
 - name: Plus Simple
   status: unknown
   source: https://www.speedinvest.com/portfolio/plus-simple
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plus-simple
+  slug: plus-simple
+  matched_by: name-slug
 - name: Polaron
   status: unknown
   source: https://www.speedinvest.com/portfolio/polaron
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polaron
+  slug: polaron
+  matched_by: name-slug
 - name: Porotech
   status: unknown
   source: https://www.speedinvest.com/portfolio/porotech
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: porotech
+  slug: porotech
+  matched_by: name-slug
 - name: Precium
   status: unknown
   source: https://www.speedinvest.com/portfolio/precium
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: precium
+  slug: precium
+  matched_by: name-slug
 - name: Prewave
   status: unknown
   source: https://www.speedinvest.com/portfolio/prewave
-  in_network: false
-  is_api_provider: false
-  suggested_slug: prewave
+  in_network: true
+  is_api_provider: true
+  slug: prewave
+  matched_by: name-slug
 - name: Primer
   status: unknown
   source: https://www.speedinvest.com/portfolio/primer
@@ -1312,9 +1504,10 @@ companies:
 - name: Purposegreen
   status: unknown
   source: https://www.speedinvest.com/portfolio/purposegreen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: purposegreen
+  slug: purposegreen
+  matched_by: name-slug
 - name: Qovery
   status: unknown
   source: https://www.speedinvest.com/portfolio/qovery
@@ -1325,9 +1518,10 @@ companies:
 - name: Qphox
   status: unknown
   source: https://www.speedinvest.com/portfolio/qphox
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qphox
+  slug: qphox
+  matched_by: name-slug
 - name: Rainbow
   status: unknown
   source: https://www.speedinvest.com/portfolio/rainbow
@@ -1338,237 +1532,276 @@ companies:
 - name: Raus
   status: unknown
   source: https://www.speedinvest.com/portfolio/raus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raus
+  slug: raus
+  matched_by: name-slug
 - name: Ready2order
   status: unknown
   source: https://www.speedinvest.com/portfolio/ready2order
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ready2order
+  in_network: true
+  is_api_provider: true
+  slug: ready2order
+  matched_by: name-slug
 - name: Receeve
   status: unknown
   source: https://www.speedinvest.com/portfolio/receeve
-  in_network: false
-  is_api_provider: false
-  suggested_slug: receeve
+  in_network: true
+  is_api_provider: true
+  slug: receeve
+  matched_by: name-slug
 - name: Recyda
   status: unknown
   source: https://www.speedinvest.com/portfolio/recyda
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recyda
+  slug: recyda
+  matched_by: name-slug
 - name: Refurbed
   status: unknown
   source: https://www.speedinvest.com/portfolio/refurbed
-  in_network: false
-  is_api_provider: false
-  suggested_slug: refurbed
+  in_network: true
+  is_api_provider: true
+  slug: refurbed
+  matched_by: name-slug
 - name: Remberg
   status: unknown
   source: https://www.speedinvest.com/portfolio/remberg
-  in_network: false
-  is_api_provider: false
-  suggested_slug: remberg
+  in_network: true
+  is_api_provider: true
+  slug: remberg
+  matched_by: name-slug
 - name: Resourcify
   status: unknown
   source: https://www.speedinvest.com/portfolio/resourcify
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resourcify
+  slug: resourcify
+  matched_by: name-slug
 - name: Revyze
   status: unknown
   source: https://www.speedinvest.com/portfolio/revyze
-  in_network: false
-  is_api_provider: false
-  suggested_slug: revyze
+  in_network: true
+  is_api_provider: true
+  slug: revyze
+  matched_by: name-slug
 - name: Rho Protocol
   status: unknown
   source: https://www.speedinvest.com/portfolio/rho-protocol
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rho-protocol
+  in_network: true
+  is_api_provider: true
+  slug: rho-protocol
+  matched_by: name-slug
 - name: Rival
   status: unknown
   source: https://www.speedinvest.com/portfolio/rival
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rival
+  slug: rival
+  matched_by: name-slug
 - name: Rivia
   status: unknown
   source: https://www.speedinvest.com/portfolio/rivia
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rivia
+  slug: rivia
+  matched_by: name-slug
 - name: Roclub
   status: unknown
   source: https://www.speedinvest.com/portfolio/roclub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roclub
+  slug: roclub
+  matched_by: name-slug
 - name: Rollee
   status: unknown
   source: https://www.speedinvest.com/portfolio/rollee
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rollee
+  slug: rollee
+  matched_by: name-slug
 - name: Runware
   status: unknown
   source: https://www.speedinvest.com/portfolio/runware
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: runware
+  slug: runware
+  matched_by: name-slug
 - name: Saude Bliss
   status: unknown
   source: https://www.speedinvest.com/portfolio/saude-bliss
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saude-bliss
+  slug: saude-bliss
+  matched_by: name-slug
 - name: Scalarr
   status: unknown
   source: https://www.speedinvest.com/portfolio/scalarr
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalarr
+  slug: scalarr
+  matched_by: name-slug
 - name: Scalera
   status: unknown
   source: https://www.speedinvest.com/portfolio/scalera
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalera
+  slug: scalera
+  matched_by: name-slug
 - name: Schuettflix
   status: unknown
   source: https://www.speedinvest.com/portfolio/schuettflix
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: schuettflix
+  slug: schuettflix
+  matched_by: name-slug
 - name: Seafair
   status: unknown
   source: https://www.speedinvest.com/portfolio/seafair
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seafair
+  slug: seafair
+  matched_by: name-slug
 - name: Second Nature
   status: unknown
   source: https://www.speedinvest.com/portfolio/second-nature
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: second-nature
+  slug: second-nature
+  matched_by: name-slug
 - name: Seltz
   status: unknown
   source: https://www.speedinvest.com/portfolio/seltz
-  in_network: false
-  is_api_provider: false
-  suggested_slug: seltz
+  in_network: true
+  is_api_provider: true
+  slug: seltz
+  matched_by: name-slug
 - name: Sense Street
   status: unknown
   source: https://www.speedinvest.com/portfolio/sense-street
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sense-street
+  slug: sense-street
+  matched_by: name-slug
 - name: Seqera Labs
   status: unknown
   source: https://www.speedinvest.com/portfolio/seqera-labs
-  in_network: false
-  is_api_provider: false
-  suggested_slug: seqera-labs
+  in_network: true
+  is_api_provider: true
+  slug: seqera-labs
+  matched_by: name-slug
 - name: Shapr3d
   status: unknown
   source: https://www.speedinvest.com/portfolio/shapr3d
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shapr3d
+  slug: shapr3d
+  matched_by: name-slug
 - name: Shpock
   status: unknown
   source: https://www.speedinvest.com/portfolio/shpock
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shpock
+  slug: shpock
+  matched_by: name-slug
 - name: Silq
   status: unknown
   source: https://www.speedinvest.com/portfolio/silq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silq
+  slug: silq
+  matched_by: name-slug
 - name: Simbel
   status: unknown
   source: https://www.speedinvest.com/portfolio/simbel
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simbel
+  slug: simbel
+  matched_by: name-slug
 - name: Skyfri
   status: unknown
   source: https://www.speedinvest.com/portfolio/skyfri
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skyfri
+  slug: skyfri
+  matched_by: name-slug
 - name: Smiler
   status: unknown
   source: https://www.speedinvest.com/portfolio/smiler
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smiler
+  slug: smiler
+  matched_by: name-slug
 - name: Soc Os
   status: unknown
   source: https://www.speedinvest.com/portfolio/soc-os
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soc-os
+  slug: soc-os
+  matched_by: name-slug
 - name: Solvo Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/solvo-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solvo-ai
+  slug: solvo-ai
+  matched_by: name-slug
 - name: Sona
   status: unknown
   source: https://www.speedinvest.com/portfolio/sona
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sona
+  slug: sona
+  matched_by: name-slug
 - name: Spaitial
   status: unknown
   source: https://www.speedinvest.com/portfolio/spaitial
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spaitial
+  in_network: true
+  is_api_provider: true
+  slug: spaitial
+  matched_by: name-slug
 - name: Stateless
   status: unknown
   source: https://www.speedinvest.com/portfolio/stateless
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stateless
+  slug: stateless
+  matched_by: name-slug
 - name: Storyclash
   status: unknown
   source: https://www.speedinvest.com/portfolio/storyclash
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: storyclash
+  slug: storyclash
+  matched_by: name-slug
 - name: Stotles
   status: unknown
   source: https://www.speedinvest.com/portfolio/stotles
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stotles
+  slug: stotles
+  matched_by: name-slug
 - name: Sunlight
   status: unknown
   source: https://www.speedinvest.com/portfolio/sunlight
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sunlight
+  slug: sunlight
+  matched_by: name-slug
 - name: Surfboard
   status: unknown
   source: https://www.speedinvest.com/portfolio/surfboard
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: surfboard
+  slug: surfboard
+  matched_by: name-slug
 - name: Swipeguide
   status: unknown
   source: https://www.speedinvest.com/portfolio/swipeguide
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swipeguide
+  slug: swipeguide
+  matched_by: name-slug
 - name: Sylvera
   status: unknown
   source: https://www.speedinvest.com/portfolio/sylvera
@@ -1586,153 +1819,178 @@ companies:
 - name: Taxfix
   status: unknown
   source: https://www.speedinvest.com/portfolio/taxfix
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taxfix
+  slug: taxfix
+  matched_by: name-slug
 - name: Taxscouts
   status: unknown
   source: https://www.speedinvest.com/portfolio/taxscouts
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taxscouts
+  slug: taxscouts
+  matched_by: name-slug
 - name: Telleroo
   status: unknown
   source: https://www.speedinvest.com/portfolio/telleroo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: telleroo
+  slug: telleroo
+  matched_by: name-slug
 - name: Tenyks
   status: unknown
   source: https://www.speedinvest.com/portfolio/tenyks
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tenyks
+  in_network: true
+  is_api_provider: true
+  slug: tenyks
+  matched_by: name-slug
 - name: Textcortex
   status: unknown
   source: https://www.speedinvest.com/portfolio/textcortex
-  in_network: false
-  is_api_provider: false
-  suggested_slug: textcortex
+  in_network: true
+  is_api_provider: true
+  slug: textcortex
+  matched_by: name-slug
 - name: The Lowdown
   status: unknown
   source: https://www.speedinvest.com/portfolio/the-lowdown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-lowdown
+  slug: the-lowdown
+  matched_by: name-slug
 - name: Thinksono
   status: unknown
   source: https://www.speedinvest.com/portfolio/thinksono
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thinksono
+  slug: thinksono
+  matched_by: name-slug
 - name: Tibo Energy
   status: unknown
   source: https://www.speedinvest.com/portfolio/tibo-energy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tibo-energy
+  slug: tibo-energy
+  matched_by: name-slug
 - name: Tide
   status: unknown
   source: https://www.speedinvest.com/portfolio/tide
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tide
+  slug: tide
+  matched_by: name-slug
 - name: Tier
   status: unknown
   source: https://www.speedinvest.com/portfolio/tier
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tier
+  slug: tier
+  matched_by: name-slug
 - name: Timberhub
   status: unknown
   source: https://www.speedinvest.com/portfolio/timberhub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: timberhub
+  slug: timberhub
+  matched_by: name-slug
 - name: Timeular
   status: unknown
   source: https://www.speedinvest.com/portfolio/timeular
-  in_network: false
-  is_api_provider: false
-  suggested_slug: timeular
+  in_network: true
+  is_api_provider: true
+  slug: timeular
+  matched_by: name-slug
 - name: Toqio
   status: unknown
   source: https://www.speedinvest.com/portfolio/toqio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: toqio
+  in_network: true
+  is_api_provider: true
+  slug: toqio
+  matched_by: name-slug
 - name: Tourradar
   status: unknown
   source: https://www.speedinvest.com/portfolio/tourradar
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tourradar
+  slug: tourradar
+  matched_by: name-slug
 - name: Tower
   status: unknown
   source: https://www.speedinvest.com/portfolio/tower
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tower
+  in_network: true
+  is_api_provider: true
+  slug: tower
+  matched_by: name-slug
 - name: Tranched
   status: unknown
   source: https://www.speedinvest.com/portfolio/tranched
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tranched
+  slug: tranched
+  matched_by: name-slug
 - name: Trawa
   status: unknown
   source: https://www.speedinvest.com/portfolio/trawa
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trawa
+  slug: trawa
+  matched_by: name-slug
 - name: Tulipshare
   status: unknown
   source: https://www.speedinvest.com/portfolio/tulipshare
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tulipshare
+  slug: tulipshare
+  matched_by: name-slug
 - name: Tulyp
   status: unknown
   source: https://www.speedinvest.com/portfolio/tulyp
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tulyp
+  slug: tulyp
+  matched_by: name-slug
 - name: Turintech
   status: unknown
   source: https://www.speedinvest.com/portfolio/turintech
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: turintech
+  slug: turintech
+  matched_by: name-slug
 - name: Tuum
   status: unknown
   source: https://www.speedinvest.com/portfolio/tuum
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tuum
+  slug: tuum
+  matched_by: name-slug
 - name: Twaice
   status: unknown
   source: https://www.speedinvest.com/portfolio/twaice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twaice
+  slug: twaice
+  matched_by: name-slug
 - name: Ubiq
   status: unknown
   source: https://www.speedinvest.com/portfolio/ubiq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ubiq
+  slug: ubiq
+  matched_by: name-slug
 - name: Unstoppable Finance
   status: unknown
   source: https://www.speedinvest.com/portfolio/unstoppable-finance
-  in_network: false
-  is_api_provider: false
-  suggested_slug: unstoppable-finance
+  in_network: true
+  is_api_provider: true
+  slug: unstoppable-finance
+  matched_by: name-slug
 - name: Unweave
   status: unknown
   source: https://www.speedinvest.com/portfolio/unweave
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unweave
+  slug: unweave
+  matched_by: name-slug
 - name: Upvest
   status: unknown
   source: https://www.speedinvest.com/portfolio/upvest
@@ -1743,15 +2001,17 @@ companies:
 - name: Usersnap
   status: unknown
   source: https://www.speedinvest.com/portfolio/usersnap
-  in_network: false
-  is_api_provider: false
-  suggested_slug: usersnap
+  in_network: true
+  is_api_provider: true
+  slug: usersnap
+  matched_by: name-slug
 - name: Vocca Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/vocca-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vocca-ai
+  slug: vocca-ai
+  matched_by: name-slug
 - name: Wasmer
   status: unknown
   source: https://www.speedinvest.com/portfolio/wasmer
@@ -1762,9 +2022,10 @@ companies:
 - name: Wayflyer
   status: unknown
   source: https://www.speedinvest.com/portfolio/wayflyer
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wayflyer
+  in_network: true
+  is_api_provider: true
+  slug: wayflyer
+  matched_by: name-slug
 - name: Wefox
   status: unknown
   source: https://www.speedinvest.com/portfolio/wefox
@@ -1775,24 +2036,28 @@ companies:
 - name: Wikidocs
   status: unknown
   source: https://www.speedinvest.com/portfolio/wikidocs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wikidocs
+  slug: wikidocs
+  matched_by: name-slug
 - name: Wikifolio
   status: unknown
   source: https://www.speedinvest.com/portfolio/wikifolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wikifolio
+  slug: wikifolio
+  matched_by: name-slug
 - name: Yardlink
   status: unknown
   source: https://www.speedinvest.com/portfolio/yardlink
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yardlink
+  slug: yardlink
+  matched_by: name-slug
 - name: Yokoy
   status: unknown
   source: https://www.speedinvest.com/portfolio/yokoy
-  in_network: false
-  is_api_provider: false
-  suggested_slug: yokoy
+  in_network: true
+  is_api_provider: true
+  slug: yokoy
+  matched_by: name-slug

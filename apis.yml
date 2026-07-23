@@ -12,6 +12,17 @@ description: >-
   customer introductions, and a global follow-on network. The firm backs technical founders across Europe
   and beyond, with a portfolio of 400+ companies including Bitpanda, Tide, GoStudent, Wayflyer, Curve,
   Adverity, Bitmovin, CoachHub, and Prewave.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.speedinvest.com/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital
