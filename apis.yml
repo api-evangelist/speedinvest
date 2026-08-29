@@ -12,6 +12,17 @@ description: >-
   customer introductions, and a global follow-on network. The firm backs technical founders across Europe
   and beyond, with a portfolio of 400+ companies including Bitpanda, Tide, GoStudent, Wayflyer, Curve,
   Adverity, Bitmovin, CoachHub, and Prewave.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
