@@ -3,9 +3,9 @@ method: searched
 source: https://www.speedinvest.com/portfolio
 summary:
   portfolio_total: 288
-  in_network: 282
+  in_network: 281
   api_providers: 65
-  missing: 6
+  missing: 7
   stubs_created: 0
 companies:
 - name: 10 Percent
@@ -15,6 +15,7 @@ companies:
   is_api_provider: false
   slug: 10-percent
   matched_by: name-slug
+  x-url-candidate: https://10percent.com
 - name: 9am Health
   status: unknown
   source: https://www.speedinvest.com/portfolio/9am-health
@@ -36,7 +37,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: abwab-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.abwab.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Actiondesk
   url: https://actiondesk.io
   status: unknown
@@ -75,14 +78,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: agro-club
-  matched_by: name-slug
+  matched_by: domain
+  url: https://agro.club/ru
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Alinia Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/alinia-ai
   in_network: true
   is_api_provider: false
   slug: alinia-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.alinia.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Amodo
   url: https://amodo.eu
   status: unknown
@@ -97,7 +104,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: anda
-  matched_by: name-slug
+  matched_by: domain
+  url: https://andaafrica.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Apiday
   url: https://apiday.com
   status: unknown
@@ -120,7 +129,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: asap-work
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.asap.work/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Astral Systems
   url: https://astralsystems.com
   status: unknown
@@ -268,14 +279,18 @@ companies:
   in_network: true
   is_api_provider: true
   slug: byrd
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.getbyrd.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Candis
   status: unknown
   source: https://www.speedinvest.com/portfolio/candis
   in_network: true
   is_api_provider: true
   slug: candis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.candis.io/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Celus
   url: https://celus.io
   status: unknown
@@ -290,7 +305,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: charles-co
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hello-charles.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cherrypick
   url: https://cherrypick.co
   status: unknown
@@ -415,7 +432,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: deblock
-  matched_by: name-slug
+  matched_by: domain
+  url: https://deblock.com/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Deep Render
   status: unknown
   source: https://www.speedinvest.com/portfolio/deep-render
@@ -429,28 +448,36 @@ companies:
   slug: dialpad
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dialpad.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Diligent
   status: unknown
   source: https://www.speedinvest.com/portfolio/diligent
   in_network: true
   is_api_provider: true
   slug: diligent
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.godiligent.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Djust
   status: unknown
   source: https://www.speedinvest.com/portfolio/djust
   in_network: true
   is_api_provider: false
   slug: djust
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.djust.io/fr
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Doccla
   status: unknown
   source: https://www.speedinvest.com/portfolio/doccla
   in_network: true
   is_api_provider: false
   slug: doccla
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.doccla.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Donnerstag Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/donnerstag-ai
@@ -464,21 +491,27 @@ companies:
   in_network: true
   is_api_provider: false
   slug: drag-bot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dragandbot.com/en/home
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Dronamics
   status: unknown
   source: https://www.speedinvest.com/portfolio/dronamics
   in_network: true
   is_api_provider: false
   slug: dronamics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dronamics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Drop
   status: unknown
   source: https://www.speedinvest.com/portfolio/drop
   in_network: true
   is_api_provider: false
   slug: drop
-  matched_by: name-slug
+  matched_by: domain
+  url: https://drop.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Due
   status: unknown
   source: https://www.speedinvest.com/portfolio/due
@@ -492,14 +525,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ellipsus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ellipsus.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Emmi Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/emmi-ai
   in_network: true
   is_api_provider: false
   slug: emmi-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.emmi.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Estateguru
   status: unknown
   source: https://www.speedinvest.com/portfolio/estateguru
@@ -507,13 +544,16 @@ companies:
   is_api_provider: false
   slug: estateguru
   matched_by: name-slug
+  x-url-candidate: https://www.estateguru.com/
 - name: Eunice
   status: unknown
   source: https://www.speedinvest.com/portfolio/eunice
   in_network: true
   is_api_provider: false
   slug: eunice
-  matched_by: name-slug
+  matched_by: domain
+  url: https://eunice.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Exa Finance
   status: unknown
   source: https://www.speedinvest.com/portfolio/exa-finance
@@ -527,104 +567,133 @@ companies:
   in_network: true
   is_api_provider: true
   slug: exactly-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://exactly.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Factris
   status: unknown
   source: https://www.speedinvest.com/portfolio/factris
   in_network: true
   is_api_provider: false
   slug: factris
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.factris.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fairlyne
   status: unknown
   source: https://www.speedinvest.com/portfolio/fairlyne
   in_network: true
   is_api_provider: false
   slug: fairlyne
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fairlyne.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fairmoney
   status: unknown
   source: https://www.speedinvest.com/portfolio/fairmoney
   slug: fairmoney
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fairmoney.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fairplay
   status: unknown
   source: https://www.speedinvest.com/portfolio/fairplay
   in_network: true
   is_api_provider: false
   slug: fairplay
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.getfairplay.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fernride
   status: unknown
   source: https://www.speedinvest.com/portfolio/fernride
   in_network: true
   is_api_provider: false
   slug: fernride
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fernride.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fertifa
   status: unknown
   source: https://www.speedinvest.com/portfolio/fertifa
   in_network: true
   is_api_provider: false
   slug: fertifa
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fertifa.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fiat Republic
   status: unknown
   source: https://www.speedinvest.com/portfolio/fiat-republic
   in_network: true
   is_api_provider: true
   slug: fiat-republic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fiatrepublic.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fifth Dimension Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/fifth-dimension-ai
   in_network: false
   is_api_provider: false
   suggested_slug: fifth-dimension-ai
+  x-url-candidate: https://www.fifthdimensionai.com/
 - name: Finary
   status: unknown
   source: https://www.speedinvest.com/portfolio/finary
   in_network: true
   is_api_provider: false
   slug: finary
-  matched_by: name-slug
+  matched_by: domain
+  url: https://finary.com/fr
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fincompare
   status: unknown
   source: https://www.speedinvest.com/portfolio/fincompare
   in_network: true
   is_api_provider: false
   slug: fincompare
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fincompare.de/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Finres
   status: unknown
   source: https://www.speedinvest.com/portfolio/finres
   in_network: true
   is_api_provider: false
   slug: finres
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.finres.org/fr
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Firsty
   status: unknown
   source: https://www.speedinvest.com/portfolio/firsty
   in_network: true
   is_api_provider: false
   slug: firsty
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.firsty.app/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Five Lives
   status: unknown
   source: https://www.speedinvest.com/portfolio/five-lives
   in_network: true
   is_api_provider: false
   slug: five-lives
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fivelives.health/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Flank
   status: unknown
   source: https://www.speedinvest.com/portfolio/flank
   in_network: true
   is_api_provider: false
   slug: flank
-  matched_by: name-slug
+  matched_by: domain
+  url: https://flank.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Flaviar
   status: unknown
   source: https://www.speedinvest.com/portfolio/flaviar
@@ -645,28 +714,36 @@ companies:
   in_network: true
   is_api_provider: false
   slug: flexkeeping
-  matched_by: name-slug
+  matched_by: domain
+  url: https://flexkeeping.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Flinn
   status: unknown
   source: https://www.speedinvest.com/portfolio/flinn
   in_network: true
   is_api_provider: false
   slug: flinn
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flinn.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Flow48
   status: unknown
   source: https://www.speedinvest.com/portfolio/flow48
   in_network: true
   is_api_provider: false
   slug: flow48
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flow48.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Flowdesk
   status: unknown
   source: https://www.speedinvest.com/portfolio/flowdesk
   in_network: true
   is_api_provider: false
   slug: flowdesk
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flowdesk.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fortunes
   status: unknown
   source: https://www.speedinvest.com/portfolio/fortunes
@@ -674,13 +751,16 @@ companies:
   is_api_provider: false
   slug: fortunes
   matched_by: name-slug
+  x-url-candidate: https://fortunes.com
 - name: Forward Earth
   status: unknown
   source: https://www.speedinvest.com/portfolio/forward-earth
   in_network: true
   is_api_provider: false
   slug: forward-earth
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.forward-earth.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Friday Finance
   status: unknown
   source: https://www.speedinvest.com/portfolio/friday-finance
@@ -688,20 +768,25 @@ companies:
   is_api_provider: false
   slug: friday-finance
   matched_by: name-slug
+  x-url-candidate: https://fridayfinance.ai
 - name: Fuse
   status: unknown
   source: https://www.speedinvest.com/portfolio/fuse
   in_network: true
   is_api_provider: false
   slug: fuse
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fuseenergy.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Genie
   status: unknown
   source: https://www.speedinvest.com/portfolio/genie
   in_network: true
   is_api_provider: false
   slug: genie
-  matched_by: name-slug
+  matched_by: domain
+  url: https://genieframework.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Getvocal
   status: unknown
   source: https://www.speedinvest.com/portfolio/getvocal
@@ -715,7 +800,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: gigs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gigs.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gitpod
   status: unknown
   source: https://www.speedinvest.com/portfolio/gitpod
@@ -729,56 +816,72 @@ companies:
   in_network: true
   is_api_provider: false
   slug: gostudent
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gostudent.org/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gotiger
   status: unknown
   source: https://www.speedinvest.com/portfolio/gotiger
   in_network: true
   is_api_provider: false
   slug: gotiger
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gotigerapp.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Grace
   status: unknown
   source: https://www.speedinvest.com/portfolio/grace
   in_network: true
   is_api_provider: false
   slug: grace
-  matched_by: name-slug
+  matched_by: domain
+  url: https://grace.io/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Grandhood
   status: unknown
   source: https://www.speedinvest.com/portfolio/grandhood
   in_network: true
   is_api_provider: false
   slug: grandhood
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.grandhood.dk/en/home
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Greyparrot
   status: unknown
   source: https://www.speedinvest.com/portfolio/greyparrot
   in_network: true
   is_api_provider: false
   slug: greyparrot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.greyparrot.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gronda
   status: unknown
   source: https://www.speedinvest.com/portfolio/gronda
   in_network: true
   is_api_provider: false
   slug: gronda
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gronda.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gustav
   status: unknown
   source: https://www.speedinvest.com/portfolio/gustav
   in_network: true
   is_api_provider: false
   slug: gustav
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gustav.app/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gyre Energy
   status: unknown
   source: https://www.speedinvest.com/portfolio/gyre-energy
   in_network: true
   is_api_provider: false
   slug: gyre-energy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gyreenergy.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Haaven
   status: unknown
   source: https://www.speedinvest.com/portfolio/haaven
@@ -792,7 +895,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: harbor-lab
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.harborlab.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Haz
   status: unknown
   source: https://www.speedinvest.com/portfolio/haz
@@ -813,7 +918,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: hexafarms
-  matched_by: name-slug
+  matched_by: domain
+  url: https://hexafarms.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hi Health
   status: unknown
   source: https://www.speedinvest.com/portfolio/hi-health
@@ -826,7 +933,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: holvi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.holvi.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Impala
   status: unknown
   source: https://www.speedinvest.com/portfolio/impala
@@ -846,77 +955,99 @@ companies:
   in_network: true
   is_api_provider: true
   slug: indykite
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.indykite.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Inkitt
   status: unknown
   source: https://www.speedinvest.com/portfolio/inkitt
   in_network: true
   is_api_provider: false
   slug: inkitt
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.inkitt.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Invesdor
   status: unknown
   source: https://www.speedinvest.com/portfolio/invesdor
   in_network: true
   is_api_provider: false
   slug: invesdor
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.invesdor.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Investly
   status: unknown
   source: https://www.speedinvest.com/portfolio/investly
   in_network: true
   is_api_provider: false
   slug: investly
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.investly.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Iomed
   status: unknown
   source: https://www.speedinvest.com/portfolio/iomed
   in_network: true
   is_api_provider: false
   slug: iomed
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.iomed.health/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Iyzico
   status: unknown
   source: https://www.speedinvest.com/portfolio/iyzico
   in_network: true
   is_api_provider: false
   slug: iyzico
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.iyzico.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Joblocal
   status: unknown
   source: https://www.speedinvest.com/portfolio/joblocal
   in_network: true
   is_api_provider: false
   slug: joblocal
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.joblocal.de
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Julaya
   status: unknown
   source: https://www.speedinvest.com/portfolio/julaya
   in_network: true
   is_api_provider: false
   slug: julaya
-  matched_by: name-slug
+  matched_by: domain
+  url: https://julaya.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Juli
   status: unknown
   source: https://www.speedinvest.com/portfolio/juli
   in_network: true
   is_api_provider: false
   slug: juli
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.juli.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Jumba
   status: unknown
   source: https://www.speedinvest.com/portfolio/jumba
   in_network: true
   is_api_provider: false
   slug: jumba
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.jumba.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: June
   status: unknown
   source: https://www.speedinvest.com/portfolio/june
   slug: june
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.june.so/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Katch
   status: unknown
   source: https://www.speedinvest.com/portfolio/katch
@@ -924,27 +1055,34 @@ companies:
   is_api_provider: false
   slug: katch
   matched_by: name-slug
+  x-url-candidate: https://www.katch.io/
 - name: Kema
   status: unknown
   source: https://www.speedinvest.com/portfolio/kema
   in_network: true
   is_api_provider: false
   slug: kema
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kema.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kets
   status: unknown
   source: https://www.speedinvest.com/portfolio/kets
   in_network: true
   is_api_provider: false
   slug: kets
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kets-quantum.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Keyper
   status: unknown
   source: https://www.speedinvest.com/portfolio/keyper
   in_network: true
   is_api_provider: true
   slug: keyper
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.keyper.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Khazna
   status: unknown
   source: https://www.speedinvest.com/portfolio/khazna
@@ -952,13 +1090,16 @@ companies:
   is_api_provider: false
   slug: khazna
   matched_by: name-slug
+  x-url-candidate: https://www.khazna.com/
 - name: Kittl
   status: unknown
   source: https://www.speedinvest.com/portfolio/kittl
   in_network: true
   is_api_provider: false
   slug: kittl
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kittl.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Koalaboox
   status: unknown
   source: https://www.speedinvest.com/portfolio/koalaboox
@@ -979,21 +1120,27 @@ companies:
   in_network: true
   is_api_provider: true
   slug: koin
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.koin.com.br/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Konfetti
   status: unknown
   source: https://www.speedinvest.com/portfolio/konfetti
   in_network: true
   is_api_provider: true
   slug: konfetti
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gokonfetti.com:443/de-de/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kraken
   status: unknown
   source: https://www.speedinvest.com/portfolio/kraken
   slug: kraken
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kraken.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kwest
   status: unknown
   source: https://www.speedinvest.com/portfolio/kwest
@@ -1007,14 +1154,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kyrok
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kyrok.com/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Laelaps Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/laelaps-ai
   in_network: true
   is_api_provider: false
   slug: laelaps-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://laelaps.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Landvault
   status: unknown
   source: https://www.speedinvest.com/portfolio/landvault
@@ -1035,7 +1186,9 @@ companies:
   slug: ledgy
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ledgy.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lemonflow Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/lemonflow-ai
@@ -1043,27 +1196,34 @@ companies:
   is_api_provider: false
   slug: lemonflow-ai
   matched_by: name-slug
+  x-url-candidate: https://lemonflow.io
 - name: Lemonway
   status: unknown
   source: https://www.speedinvest.com/portfolio/lemonway
   slug: lemonway
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lemonway.com/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Leta
   status: unknown
   source: https://www.speedinvest.com/portfolio/leta
   in_network: true
   is_api_provider: false
   slug: leta
-  matched_by: name-slug
+  matched_by: domain
+  url: https://leta.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lizee
   status: unknown
   source: https://www.speedinvest.com/portfolio/lizee
   in_network: true
   is_api_provider: false
   slug: lizee
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rms.lizee.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lizzyai
   status: unknown
   source: https://www.speedinvest.com/portfolio/lizzyai
@@ -1077,90 +1237,115 @@ companies:
   in_network: true
   is_api_provider: false
   slug: luko
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fr.luko.eu
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Maqsad
   status: unknown
   source: https://www.speedinvest.com/portfolio/maqsad
   in_network: true
   is_api_provider: false
   slug: maqsad
-  matched_by: name-slug
+  matched_by: domain
+  url: https://maqsad.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Meisterwerk
   status: unknown
   source: https://www.speedinvest.com/portfolio/meisterwerk
   in_network: true
   is_api_provider: false
   slug: meisterwerk
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.meisterwerk.app
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mercanis
   status: unknown
   source: https://www.speedinvest.com/portfolio/mercanis
   in_network: true
   is_api_provider: false
   slug: mercanis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.mercanis.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Metis Labs
   status: unknown
   source: https://www.speedinvest.com/portfolio/metis-labs
   in_network: true
   is_api_provider: false
   slug: metis-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.metislabs.tech/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Metrilo
   status: unknown
   source: https://www.speedinvest.com/portfolio/metrilo
   in_network: true
   is_api_provider: true
   slug: metrilo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.metrilo.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mews
   status: unknown
   source: https://www.speedinvest.com/portfolio/mews
   in_network: false
   is_api_provider: false
   suggested_slug: mews
+  x-url-candidate: https://www.mews.com/en
 - name: Milaboratories
   status: unknown
   source: https://www.speedinvest.com/portfolio/milaboratories
   in_network: true
   is_api_provider: false
   slug: milaboratories
-  matched_by: name-slug
+  matched_by: domain
+  url: https://milaboratories.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Milano Vice
   status: unknown
   source: https://www.speedinvest.com/portfolio/milano-vice
   in_network: true
   is_api_provider: false
   slug: milano-vice
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.milano-vice.de/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mimic
   status: unknown
   source: https://www.speedinvest.com/portfolio/mimic
   in_network: true
   is_api_provider: false
   slug: mimic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mimic.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mindsdb
   status: unknown
   source: https://www.speedinvest.com/portfolio/mindsdb
   slug: mindsdb
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mindshub.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Minersai
   status: unknown
   source: https://www.speedinvest.com/portfolio/minersai
   in_network: true
   is_api_provider: false
   slug: minersai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.minersai.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mistral
   status: unknown
   source: https://www.speedinvest.com/portfolio/mistral
   slug: mistral
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mistral.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Molecule
   status: unknown
   source: https://www.speedinvest.com/portfolio/molecule
@@ -1168,48 +1353,61 @@ companies:
   is_api_provider: false
   slug: molecule
   matched_by: name-slug
+  x-url-candidate: https://molecule.com
 - name: Moonpay
   status: unknown
   source: https://www.speedinvest.com/portfolio/moonpay
   in_network: true
   is_api_provider: false
   slug: moonpay
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.moonpay.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Moove
   status: unknown
   source: https://www.speedinvest.com/portfolio/moove
   in_network: true
   is_api_provider: false
   slug: moove
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.moove.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mophones
   status: unknown
   source: https://www.speedinvest.com/portfolio/mophones
   in_network: true
   is_api_provider: false
   slug: mophones
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mophones.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mpiriq
   status: unknown
   source: https://www.speedinvest.com/portfolio/mpiriq
   in_network: true
   is_api_provider: false
   slug: mpiriq
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.mpiriq.de/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mundi
   status: unknown
   source: https://www.speedinvest.com/portfolio/mundi
   in_network: true
   is_api_provider: false
   slug: mundi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mundi.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Myclubs
   status: unknown
   source: https://www.speedinvest.com/portfolio/myclubs
   in_network: true
   is_api_provider: false
   slug: myclubs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.myclubs.com/at/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mydatamodels
   status: unknown
   source: https://www.speedinvest.com/portfolio/mydatamodels
@@ -1223,14 +1421,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: neocarbon
-  matched_by: name-slug
+  matched_by: domain
+  url: https://neocarbon.tech/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Neuroharmonics
   status: unknown
   source: https://www.speedinvest.com/portfolio/neuroharmonics
   in_network: true
   is_api_provider: false
   slug: neuroharmonics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://neuroharmonics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nilo Health
   status: unknown
   source: https://www.speedinvest.com/portfolio/nilo-health
@@ -1238,62 +1440,79 @@ companies:
   is_api_provider: false
   slug: nilo-health
   matched_by: name-slug
+  x-url-candidate: https://nilo.io
 - name: Nofence
   status: unknown
   source: https://www.speedinvest.com/portfolio/nofence
   in_network: true
   is_api_provider: false
   slug: nofence
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nofence.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nomos
   status: unknown
   source: https://www.speedinvest.com/portfolio/nomos
   in_network: true
   is_api_provider: true
   slug: nomos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nomos.energy/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nook
   status: unknown
   source: https://www.speedinvest.com/portfolio/nook
   in_network: true
   is_api_provider: false
   slug: nook
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nook.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Octav
   status: unknown
   source: https://www.speedinvest.com/portfolio/octav
   in_network: true
   is_api_provider: true
   slug: octav
-  matched_by: name-slug
+  matched_by: domain
+  url: https://octav.fi
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: One Five
   status: unknown
   source: https://www.speedinvest.com/portfolio/one-five
   in_network: true
   is_api_provider: false
   slug: one-five
-  matched_by: name-slug
+  matched_by: domain
+  url: https://one-five.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: One Trading
   status: unknown
   source: https://www.speedinvest.com/portfolio/one-trading
   in_network: true
   is_api_provider: true
   slug: one-trading
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onetrading.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Onepot
   status: unknown
   source: https://www.speedinvest.com/portfolio/onepot
   in_network: true
   is_api_provider: false
   slug: onepot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onepot.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Onetrust
   status: unknown
   source: https://www.speedinvest.com/portfolio/onetrust
   slug: onetrust
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onetrust.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Onit
   status: unknown
   source: https://www.speedinvest.com/portfolio/onit
@@ -1301,40 +1520,50 @@ companies:
   is_api_provider: false
   slug: onit
   matched_by: name-slug
+  x-url-candidate: https://www.onit.com/
 - name: Opal
   status: unknown
   source: https://www.speedinvest.com/portfolio/opal
   in_network: true
   is_api_provider: true
   slug: opal
-  matched_by: name-slug
+  matched_by: domain
+  url: https://workwithopal.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Open
   status: unknown
   source: https://www.speedinvest.com/portfolio/open
   in_network: false
   is_api_provider: false
   suggested_slug: open
+  x-url-candidate: https://open.bio
 - name: Openai
   status: unknown
   source: https://www.speedinvest.com/portfolio/openai
   slug: openai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://openai.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Orakl
   status: unknown
   source: https://www.speedinvest.com/portfolio/orakl
   in_network: true
   is_api_provider: true
   slug: orakl
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.orakl-oncology.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Orus
   status: unknown
   source: https://www.speedinvest.com/portfolio/orus
   in_network: true
   is_api_provider: false
   slug: orus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.orus.eu/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Oze
   status: unknown
   source: https://www.speedinvest.com/portfolio/oze
@@ -1355,35 +1584,45 @@ companies:
   in_network: true
   is_api_provider: false
   slug: packhelp
-  matched_by: name-slug
+  matched_by: domain
+  url: https://packhelp.com/en-us/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Palm
   status: unknown
   source: https://www.speedinvest.com/portfolio/palm
   in_network: true
   is_api_provider: false
   slug: palm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.usepalm.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Palmhr
   status: unknown
   source: https://www.speedinvest.com/portfolio/palmhr
   in_network: true
   is_api_provider: false
   slug: palmhr
-  matched_by: name-slug
+  matched_by: domain
+  url: https://palmhr.net/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Paradox
   status: unknown
   source: https://www.speedinvest.com/portfolio/paradox
   slug: paradox
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.paradox.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Paua
   status: unknown
   source: https://www.speedinvest.com/portfolio/paua
   in_network: true
   is_api_provider: false
   slug: paua
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.paua.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Payworks
   status: unknown
   source: https://www.speedinvest.com/portfolio/payworks
@@ -1397,14 +1636,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pemo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pemo.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Perk
   status: unknown
   source: https://www.speedinvest.com/portfolio/perk
   in_network: true
   is_api_provider: true
   slug: perk
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.perk.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Pimloc
   status: unknown
   source: https://www.speedinvest.com/portfolio/pimloc
@@ -1412,6 +1655,7 @@ companies:
   is_api_provider: true
   slug: pimloc
   matched_by: name-slug
+  x-url-candidate: https://www.pimloc.com/
 - name: Planetly
   status: unknown
   source: https://www.speedinvest.com/portfolio/planetly
@@ -1425,7 +1669,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: planqc
-  matched_by: name-slug
+  matched_by: domain
+  url: https://planqc.eu/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Platypus
   status: unknown
   source: https://www.speedinvest.com/portfolio/platypus
@@ -1436,24 +1682,30 @@ companies:
 - name: Playbrush
   status: unknown
   source: https://www.speedinvest.com/portfolio/playbrush
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: playbrush
-  matched_by: name-slug
+  url: https://www.sunstargum.com/de-de/produkte/zahnbuersten/gum-playbrush-elektrische-zahnburste.html
+  x-url-source: network-repo (title-verified 2026-10-18)
+  x-name-collision: playbrush
+  suggested_slug: sunstargum-com
 - name: Pliant
   status: unknown
   source: https://www.speedinvest.com/portfolio/pliant
   in_network: true
   is_api_provider: true
-  slug: pliant
-  matched_by: name-slug
+  slug: hihealth
+  matched_by: domain
+  url: https://www.getpliant.com/en-us
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Plural Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/plural-ai
   in_network: true
   is_api_provider: false
   slug: plural-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.plural.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Plus Simple
   status: unknown
   source: https://www.speedinvest.com/portfolio/plus-simple
@@ -1467,7 +1719,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: polaron
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.polaron.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Porotech
   status: unknown
   source: https://www.speedinvest.com/portfolio/porotech
@@ -1481,35 +1735,45 @@ companies:
   in_network: true
   is_api_provider: false
   slug: precium
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.precium.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Prewave
   status: unknown
   source: https://www.speedinvest.com/portfolio/prewave
   in_network: true
   is_api_provider: true
   slug: prewave
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.prewave.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Primer
   status: unknown
   source: https://www.speedinvest.com/portfolio/primer
   slug: primer
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://primer.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Purposegreen
   status: unknown
   source: https://www.speedinvest.com/portfolio/purposegreen
   in_network: true
   is_api_provider: false
   slug: purposegreen
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.purpose-green.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Qovery
   status: unknown
   source: https://www.speedinvest.com/portfolio/qovery
   slug: qovery
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.qovery.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Qphox
   status: unknown
   source: https://www.speedinvest.com/portfolio/qphox
@@ -1523,21 +1787,27 @@ companies:
   slug: rainbow
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.openrainbow.com/app
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Raus
   status: unknown
   source: https://www.speedinvest.com/portfolio/raus
   in_network: true
   is_api_provider: false
   slug: raus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.raus.life
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ready2order
   status: unknown
   source: https://www.speedinvest.com/portfolio/ready2order
   in_network: true
   is_api_provider: true
   slug: ready2order
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ready2order.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Receeve
   status: unknown
   source: https://www.speedinvest.com/portfolio/receeve
@@ -1551,35 +1821,45 @@ companies:
   in_network: true
   is_api_provider: false
   slug: recyda
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.recyda.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Refurbed
   status: unknown
   source: https://www.speedinvest.com/portfolio/refurbed
   in_network: true
   is_api_provider: true
   slug: refurbed
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.refurbed.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Remberg
   status: unknown
   source: https://www.speedinvest.com/portfolio/remberg
   in_network: true
   is_api_provider: true
   slug: remberg
-  matched_by: name-slug
+  matched_by: domain
+  url: https://remberg.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Resourcify
   status: unknown
   source: https://www.speedinvest.com/portfolio/resourcify
   in_network: true
   is_api_provider: false
   slug: resourcify
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.resourcify.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Revyze
   status: unknown
   source: https://www.speedinvest.com/portfolio/revyze
   in_network: true
   is_api_provider: true
   slug: revyze
-  matched_by: name-slug
+  matched_by: domain
+  url: https://revyze.fr/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rho Protocol
   status: unknown
   source: https://www.speedinvest.com/portfolio/rho-protocol
@@ -1594,20 +1874,25 @@ companies:
   is_api_provider: false
   slug: rival
   matched_by: name-slug
+  x-url-candidate: https://rival.io
 - name: Rivia
   status: unknown
   source: https://www.speedinvest.com/portfolio/rivia
   in_network: true
   is_api_provider: false
   slug: rivia
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.rivia.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Roclub
   status: unknown
   source: https://www.speedinvest.com/portfolio/roclub
   in_network: true
   is_api_provider: false
   slug: roclub
-  matched_by: name-slug
+  matched_by: domain
+  url: https://roclub.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rollee
   status: unknown
   source: https://www.speedinvest.com/portfolio/rollee
@@ -1615,6 +1900,7 @@ companies:
   is_api_provider: true
   slug: rollee
   matched_by: name-slug
+  x-url-candidate: https://rollee.com
 - name: Runware
   status: unknown
   source: https://www.speedinvest.com/portfolio/runware
@@ -1628,21 +1914,27 @@ companies:
   in_network: true
   is_api_provider: false
   slug: saude-bliss
-  matched_by: name-slug
+  matched_by: domain
+  url: https://saudebliss.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Scalarr
   status: unknown
   source: https://www.speedinvest.com/portfolio/scalarr
   in_network: true
   is_api_provider: false
   slug: scalarr
-  matched_by: name-slug
+  matched_by: domain
+  url: https://scalarr.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Scalera
   status: unknown
   source: https://www.speedinvest.com/portfolio/scalera
   in_network: true
   is_api_provider: false
   slug: scalera
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.scalera.ai/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Schuettflix
   status: unknown
   source: https://www.speedinvest.com/portfolio/schuettflix
@@ -1656,77 +1948,99 @@ companies:
   in_network: true
   is_api_provider: false
   slug: seafair
-  matched_by: name-slug
+  matched_by: domain
+  url: https://seafair.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Second Nature
   status: unknown
   source: https://www.speedinvest.com/portfolio/second-nature
   in_network: true
   is_api_provider: false
   slug: second-nature
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.secondnature.io/us
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Seltz
   status: unknown
   source: https://www.speedinvest.com/portfolio/seltz
   in_network: true
   is_api_provider: true
   slug: seltz
-  matched_by: name-slug
+  matched_by: domain
+  url: https://seltz.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sense Street
   status: unknown
   source: https://www.speedinvest.com/portfolio/sense-street
   in_network: true
   is_api_provider: false
   slug: sense-street
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sensestreet.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Seqera Labs
   status: unknown
   source: https://www.speedinvest.com/portfolio/seqera-labs
   in_network: true
   is_api_provider: true
   slug: seqera-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://seqera.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Shapr3d
   status: unknown
   source: https://www.speedinvest.com/portfolio/shapr3d
   in_network: true
   is_api_provider: false
   slug: shapr3d
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.shapr3d.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Shpock
   status: unknown
   source: https://www.speedinvest.com/portfolio/shpock
   in_network: true
   is_api_provider: false
   slug: shpock
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.shpock.com/en-gb
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Silq
   status: unknown
   source: https://www.speedinvest.com/portfolio/silq
   in_network: true
   is_api_provider: false
   slug: silq
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onesilq.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Simbel
   status: unknown
   source: https://www.speedinvest.com/portfolio/simbel
   in_network: true
   is_api_provider: false
   slug: simbel
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.simbel.com/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Skyfri
   status: unknown
   source: https://www.speedinvest.com/portfolio/skyfri
   in_network: true
   is_api_provider: false
   slug: skyfri
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.skyfri.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Smiler
   status: unknown
   source: https://www.speedinvest.com/portfolio/smiler
   in_network: true
   is_api_provider: false
   slug: smiler
-  matched_by: name-slug
+  matched_by: domain
+  url: https://smiler.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Soc Os
   status: unknown
   source: https://www.speedinvest.com/portfolio/soc-os
@@ -1740,21 +2054,27 @@ companies:
   in_network: true
   is_api_provider: false
   slug: solvo-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.solvo.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sona
   status: unknown
   source: https://www.speedinvest.com/portfolio/sona
   in_network: true
   is_api_provider: false
   slug: sona
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sona.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Spaitial
   status: unknown
   source: https://www.speedinvest.com/portfolio/spaitial
   in_network: true
   is_api_provider: true
   slug: spaitial
-  matched_by: name-slug
+  matched_by: domain
+  url: https://spaitial.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Stateless
   status: unknown
   source: https://www.speedinvest.com/portfolio/stateless
@@ -1762,20 +2082,25 @@ companies:
   is_api_provider: false
   slug: stateless
   matched_by: name-slug
+  x-url-candidate: https://stateless.com
 - name: Storyclash
   status: unknown
   source: https://www.speedinvest.com/portfolio/storyclash
   in_network: true
   is_api_provider: false
   slug: storyclash
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.storyclash.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Stotles
   status: unknown
   source: https://www.speedinvest.com/portfolio/stotles
   in_network: true
   is_api_provider: true
   slug: stotles
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.stotles.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sunlight
   status: unknown
   source: https://www.speedinvest.com/portfolio/sunlight
@@ -1783,6 +2108,7 @@ companies:
   is_api_provider: false
   slug: sunlight
   matched_by: name-slug
+  x-url-candidate: https://www.sunlight.com/
 - name: Surfboard
   status: unknown
   source: https://www.speedinvest.com/portfolio/surfboard
@@ -1790,6 +2116,7 @@ companies:
   is_api_provider: false
   slug: surfboard
   matched_by: name-slug
+  x-url-candidate: https://www.surfboard.com/
 - name: Swipeguide
   status: unknown
   source: https://www.speedinvest.com/portfolio/swipeguide
@@ -1803,63 +2130,81 @@ companies:
   slug: sylvera
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sylvera.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Talkjs
   status: unknown
   source: https://www.speedinvest.com/portfolio/talkjs
   slug: talkjs
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://talkjs.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Taxfix
   status: unknown
   source: https://www.speedinvest.com/portfolio/taxfix
   in_network: true
   is_api_provider: false
   slug: taxfix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://taxfix.de/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Taxscouts
   status: unknown
   source: https://www.speedinvest.com/portfolio/taxscouts
   in_network: true
   is_api_provider: false
   slug: taxscouts
-  matched_by: name-slug
+  matched_by: domain
+  url: https://taxfix.com/en-uk/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Telleroo
   status: unknown
   source: https://www.speedinvest.com/portfolio/telleroo
   in_network: true
   is_api_provider: false
   slug: telleroo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.telleroo.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tenyks
   status: unknown
   source: https://www.speedinvest.com/portfolio/tenyks
   in_network: true
   is_api_provider: true
   slug: tenyks
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tenyks.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Textcortex
   status: unknown
   source: https://www.speedinvest.com/portfolio/textcortex
   in_network: true
   is_api_provider: true
   slug: textcortex
-  matched_by: name-slug
+  matched_by: domain
+  url: https://textcortex.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: The Lowdown
   status: unknown
   source: https://www.speedinvest.com/portfolio/the-lowdown
   in_network: true
   is_api_provider: false
   slug: the-lowdown
-  matched_by: name-slug
+  matched_by: domain
+  url: https://thelowdown.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Thinksono
   status: unknown
   source: https://www.speedinvest.com/portfolio/thinksono
   in_network: true
   is_api_provider: false
   slug: thinksono
-  matched_by: name-slug
+  matched_by: domain
+  url: https://thinksono.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tibo Energy
   status: unknown
   source: https://www.speedinvest.com/portfolio/tibo-energy
@@ -1873,7 +2218,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tide
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tide.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tier
   status: unknown
   source: https://www.speedinvest.com/portfolio/tier
@@ -1886,7 +2233,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: timberhub
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.timberhub.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Timeular
   status: unknown
   source: https://www.speedinvest.com/portfolio/timeular
@@ -1900,28 +2249,36 @@ companies:
   in_network: true
   is_api_provider: true
   slug: toqio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://toqio.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tourradar
   status: unknown
   source: https://www.speedinvest.com/portfolio/tourradar
   in_network: true
   is_api_provider: false
   slug: tourradar
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tourradar.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tower
   status: unknown
   source: https://www.speedinvest.com/portfolio/tower
   in_network: true
   is_api_provider: true
   slug: tower
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tower.dev
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tranched
   status: unknown
   source: https://www.speedinvest.com/portfolio/tranched
   in_network: true
   is_api_provider: false
   slug: tranched
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tranched.fi/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Trawa
   status: unknown
   source: https://www.speedinvest.com/portfolio/trawa
@@ -1935,21 +2292,27 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tulipshare
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tulipshare.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tulyp
   status: unknown
   source: https://www.speedinvest.com/portfolio/tulyp
   in_network: true
   is_api_provider: false
   slug: tulyp
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tulyp.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Turintech
   status: unknown
   source: https://www.speedinvest.com/portfolio/turintech
   in_network: true
   is_api_provider: false
   slug: turintech
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.turintech.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tuum
   status: unknown
   source: https://www.speedinvest.com/portfolio/tuum
@@ -1957,6 +2320,7 @@ companies:
   is_api_provider: false
   slug: tuum
   matched_by: name-slug
+  x-url-candidate: https://tuum.com
 - name: Twaice
   status: unknown
   source: https://www.speedinvest.com/portfolio/twaice
@@ -1971,6 +2335,7 @@ companies:
   is_api_provider: false
   slug: ubiq
   matched_by: name-slug
+  x-url-candidate: https://ubiq.co
 - name: Unstoppable Finance
   status: unknown
   source: https://www.speedinvest.com/portfolio/unstoppable-finance
@@ -1984,28 +2349,36 @@ companies:
   in_network: true
   is_api_provider: false
   slug: unweave
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.unweave.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Upvest
   status: unknown
   source: https://www.speedinvest.com/portfolio/upvest
   slug: upvest
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://upvest.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Usersnap
   status: unknown
   source: https://www.speedinvest.com/portfolio/usersnap
   in_network: true
   is_api_provider: true
   slug: usersnap
-  matched_by: name-slug
+  matched_by: domain
+  url: https://usersnap.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vocca Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/vocca-ai
   in_network: true
   is_api_provider: false
   slug: vocca-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vocca.com/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Wasmer
   status: unknown
   source: https://www.speedinvest.com/portfolio/wasmer
@@ -2019,7 +2392,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: wayflyer
-  matched_by: name-slug
+  matched_by: domain
+  url: https://wayflyer.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Wefox
   status: unknown
   source: https://www.speedinvest.com/portfolio/wefox
@@ -2034,13 +2409,16 @@ companies:
   is_api_provider: false
   slug: wikidocs
   matched_by: name-slug
+  x-url-candidate: https://wikidocs.com
 - name: Wikifolio
   status: unknown
   source: https://www.speedinvest.com/portfolio/wikifolio
   in_network: true
   is_api_provider: false
   slug: wikifolio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.wikifolio.com/en/int/home
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Yardlink
   status: unknown
   source: https://www.speedinvest.com/portfolio/yardlink
@@ -2048,6 +2426,7 @@ companies:
   is_api_provider: false
   slug: yardlink
   matched_by: name-slug
+  x-url-candidate: https://yardlink.com
 - name: Yokoy
   status: unknown
   source: https://www.speedinvest.com/portfolio/yokoy

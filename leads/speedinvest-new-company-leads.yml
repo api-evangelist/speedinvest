@@ -37,6 +37,13 @@ leads:
   source_vc: speedinvest
   source: https://www.speedinvest.com/portfolio/open
   stub_created: false
+- name: Playbrush
+  url: https://www.sunstargum.com/de-de/produkte/zahnbuersten/gum-playbrush-elektrische-zahnburste.html
+  suggested_slug: sunstargum-com
+  sector: ''
+  source_vc: speedinvest
+  source: https://www.speedinvest.com/portfolio/playbrush
+  stub_created: false
 - name: Tier
   url: ''
   suggested_slug: tier
