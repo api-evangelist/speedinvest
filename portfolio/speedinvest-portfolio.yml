@@ -3,9 +3,9 @@ method: searched
 source: https://www.speedinvest.com/portfolio
 summary:
   portfolio_total: 288
-  in_network: 288
-  api_providers: 56
-  missing: 0
+  in_network: 282
+  api_providers: 65
+  missing: 6
   stubs_created: 0
 companies:
 - name: 10 Percent
@@ -112,7 +112,7 @@ companies:
   source: https://www.speedinvest.com/portfolio/arx-robotics
   in_network: true
   is_api_provider: false
-  slug: arx-robotics
+  slug: arx
   matched_by: domain
 - name: Asap Work
   status: unknown
@@ -165,7 +165,7 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/billie
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: billie
   matched_by: domain
 - name: Bindbridge
@@ -221,7 +221,7 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/blng
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: blng
   matched_by: domain
 - name: Blocks
@@ -266,7 +266,7 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/byrd
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: byrd
   matched_by: name-slug
 - name: Candis
@@ -574,16 +574,15 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/fiat-republic
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: fiat-republic
   matched_by: name-slug
 - name: Fifth Dimension Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/fifth-dimension-ai
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fifth-dimension-ai
-  matched_by: name-slug
+  suggested_slug: fifth-dimension-ai
 - name: Finary
   status: unknown
   source: https://www.speedinvest.com/portfolio/finary
@@ -818,10 +817,9 @@ companies:
 - name: Hi Health
   status: unknown
   source: https://www.speedinvest.com/portfolio/hi-health
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: hi-health
-  matched_by: name-slug
+  suggested_slug: hi-health
 - name: Holvi
   status: unknown
   source: https://www.speedinvest.com/portfolio/holvi
@@ -839,10 +837,9 @@ companies:
 - name: Indoo Rs
   status: unknown
   source: https://www.speedinvest.com/portfolio/indoo-rs
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: indoo-rs
-  matched_by: name-slug
+  suggested_slug: indoo-rs
 - name: Indykite
   status: unknown
   source: https://www.speedinvest.com/portfolio/indykite
@@ -1051,7 +1048,7 @@ companies:
   source: https://www.speedinvest.com/portfolio/lemonway
   slug: lemonway
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Leta
   status: unknown
@@ -1119,10 +1116,9 @@ companies:
 - name: Mews
   status: unknown
   source: https://www.speedinvest.com/portfolio/mews
-  slug: mews
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: mews
 - name: Milaboratories
   status: unknown
   source: https://www.speedinvest.com/portfolio/milaboratories
@@ -1309,16 +1305,15 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/opal
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: opal
   matched_by: name-slug
 - name: Open
   status: unknown
   source: https://www.speedinvest.com/portfolio/open
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: open
-  matched_by: name-slug
+  suggested_slug: open
 - name: Openai
   status: unknown
   source: https://www.speedinvest.com/portfolio/openai
@@ -1407,7 +1402,7 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/perk
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: perk
   matched_by: name-slug
 - name: Pimloc
@@ -1449,7 +1444,7 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/pliant
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: pliant
   matched_by: name-slug
 - name: Plural Ai
@@ -1617,7 +1612,7 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/rollee
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: rollee
   matched_by: name-slug
 - name: Runware
@@ -1778,7 +1773,7 @@ companies:
   status: unknown
   source: https://www.speedinvest.com/portfolio/stotles
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: stotles
   matched_by: name-slug
 - name: Sunlight
@@ -1882,10 +1877,9 @@ companies:
 - name: Tier
   status: unknown
   source: https://www.speedinvest.com/portfolio/tier
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: tier
-  matched_by: name-slug
+  suggested_slug: tier
 - name: Timberhub
   status: unknown
   source: https://www.speedinvest.com/portfolio/timberhub

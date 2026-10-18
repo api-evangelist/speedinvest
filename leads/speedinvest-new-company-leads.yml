@@ -1,4 +1,46 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: speedinvest
-leads: []
+leads:
+- name: Fifth Dimension Ai
+  url: ''
+  suggested_slug: fifth-dimension-ai
+  sector: ''
+  source_vc: speedinvest
+  source: https://www.speedinvest.com/portfolio/fifth-dimension-ai
+  stub_created: false
+- name: Hi Health
+  url: ''
+  suggested_slug: hi-health
+  sector: ''
+  source_vc: speedinvest
+  source: https://www.speedinvest.com/portfolio/hi-health
+  stub_created: false
+- name: Indoo Rs
+  url: ''
+  suggested_slug: indoo-rs
+  sector: ''
+  source_vc: speedinvest
+  source: https://www.speedinvest.com/portfolio/indoo-rs
+  stub_created: false
+- name: Mews
+  url: ''
+  suggested_slug: mews
+  sector: ''
+  source_vc: speedinvest
+  source: https://www.speedinvest.com/portfolio/mews
+  stub_created: false
+- name: Open
+  url: ''
+  suggested_slug: open
+  sector: ''
+  source_vc: speedinvest
+  source: https://www.speedinvest.com/portfolio/open
+  stub_created: false
+- name: Tier
+  url: ''
+  suggested_slug: tier
+  sector: ''
+  source_vc: speedinvest
+  source: https://www.speedinvest.com/portfolio/tier
+  stub_created: false
