@@ -2,13 +2,6 @@ generated: '2026-10-18'
 method: derived
 source_vc: speedinvest
 leads:
-- name: Fifth Dimension Ai
-  url: ''
-  suggested_slug: fifth-dimension-ai
-  sector: ''
-  source_vc: speedinvest
-  source: https://www.speedinvest.com/portfolio/fifth-dimension-ai
-  stub_created: false
 - name: Hi Health
   url: https://hi.health/
   suggested_slug: hi-health
@@ -22,13 +15,6 @@ leads:
   sector: ''
   source_vc: speedinvest
   source: https://www.speedinvest.com/portfolio/indoo-rs
-  stub_created: false
-- name: Mews
-  url: ''
-  suggested_slug: mews
-  sector: ''
-  source_vc: speedinvest
-  source: https://www.speedinvest.com/portfolio/mews
   stub_created: false
 - name: Open
   url: ''

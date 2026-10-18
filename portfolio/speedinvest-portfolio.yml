@@ -3,9 +3,9 @@ method: searched
 source: https://www.speedinvest.com/portfolio
 summary:
   portfolio_total: 288
-  in_network: 281
+  in_network: 283
   api_providers: 65
-  missing: 7
+  missing: 5
   stubs_created: 0
 companies:
 - name: 10 Percent
@@ -636,10 +636,12 @@ companies:
 - name: Fifth Dimension Ai
   status: unknown
   source: https://www.speedinvest.com/portfolio/fifth-dimension-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fifth-dimension-ai
-  x-url-candidate: https://www.fifthdimensionai.com/
+  url: https://www.fifthdimensionai.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: fifth-dimension
+  matched_by: domain
 - name: Finary
   status: unknown
   source: https://www.speedinvest.com/portfolio/finary
@@ -1290,10 +1292,12 @@ companies:
 - name: Mews
   status: unknown
   source: https://www.speedinvest.com/portfolio/mews
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mews
-  x-url-candidate: https://www.mews.com/en
+  url: https://www.mews.com/en
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: bizzon
+  matched_by: domain
 - name: Milaboratories
   status: unknown
   source: https://www.speedinvest.com/portfolio/milaboratories
