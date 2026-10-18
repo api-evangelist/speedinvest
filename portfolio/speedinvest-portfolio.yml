@@ -927,6 +927,8 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: hi-health
+  url: https://hi.health/
+  x-url-source: web search 2026-10-18
 - name: Holvi
   status: unknown
   source: https://www.speedinvest.com/portfolio/holvi
@@ -1686,8 +1688,8 @@ companies:
   is_api_provider: false
   url: https://www.sunstargum.com/de-de/produkte/zahnbuersten/gum-playbrush-elektrische-zahnburste.html
   x-url-source: network-repo (title-verified 2026-10-18)
-  x-name-collision: playbrush
   suggested_slug: sunstargum-com
+  x-name-collision: playbrush
 - name: Pliant
   status: unknown
   source: https://www.speedinvest.com/portfolio/pliant
@@ -2227,6 +2229,8 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: tier
+  url: https://www.tier.app/
+  x-url-source: web search 2026-10-18
 - name: Timberhub
   status: unknown
   source: https://www.speedinvest.com/portfolio/timberhub

@@ -10,7 +10,7 @@ leads:
   source: https://www.speedinvest.com/portfolio/fifth-dimension-ai
   stub_created: false
 - name: Hi Health
-  url: ''
+  url: https://hi.health/
   suggested_slug: hi-health
   sector: ''
   source_vc: speedinvest
@@ -45,7 +45,7 @@ leads:
   source: https://www.speedinvest.com/portfolio/playbrush
   stub_created: false
 - name: Tier
-  url: ''
+  url: https://www.tier.app/
   suggested_slug: tier
   sector: ''
   source_vc: speedinvest
